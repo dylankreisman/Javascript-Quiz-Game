@@ -44,11 +44,35 @@ padding-right: 50px;
 }
  
 #answers {
-    list-style-type: none;
     text-align: center;
     display: flex;
 }
- 
+
+.question {
+    font-size: 60px;
+}
+
+ol {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+ol li {
+    padding: 10px;
+    margin: 10px;
+    border: 2px;
+    background-color: khaki;
+    font-size: 40px;
+    list-style: none;
+}
+
+ol li :hover {
+    cursor: pointer;
+    box-shadow:aqua;
+    
+}
+
 #start-btn {
     font-size: 2em;
     text-align: center;
@@ -61,4 +85,13 @@ padding-right: 50px;
  box-shadow: darkcyan;
  transition: 150ms;
  transform: scale(1.01);  
+}
+
+#highscores {
+    text-align: center;
+    display: block;
+}
+
+#highscores ul {
+    background-color: gold;
 }
