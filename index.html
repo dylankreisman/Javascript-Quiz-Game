@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript Quiz</title>
+</head>
+<body>
+    <header>
+ 
+            <div id="time">Time:</div>
+    </header>
+    <div class="card">
+        <h1>Quiz Challenge</h1>
+            <h2>This challenge will ask a series of questions with a 90-second timer. Answer the question correctly to receive points -- answer the question wrong, and 10 seconds will be taken off the clock. Good luck!</h2>
+            <div>
+                <button id="start-btn">Play</button>
+            </div>
+        </div>
+        <div id="container">
+            <h2 class="question"></h2>
+            <ol id="answers">
+                <li class="choice"></li>
+                <li class="choice"></li>
+                <li class="choice"></li>
+                <li class="choice"></li>
+            </ol>
+            <p id="decision"></p>
+        </div>
+        <div id="highscores">
+            <h2>High Scores</h2>
+            <ul id="score" >
+               
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
